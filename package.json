@@ -1,0 +1,35 @@
+{
+  "name": "monoblogger",
+  "description": "A terminal-inspired static blog generator with monospace aesthetics",  
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "npm run build && npx serve public",
+    "deploy": "npm run build && cd public && git add . && git commit -m \"Blog update $(date)\" && git push origin main",
+    "deploy-msg": "npm run build && cd public && git add . && git commit && git push origin main",
+    "setup-deploy": "node setup-deploy.js",
+    "sync-source": "git add . && git commit -m 'Update source' && git push origin main"
+  },
+  "dependencies": {
+    "marked": "^9.1.2"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "keywords": [
+    "blog",
+    "static",
+    "github-pages",
+    "markdown"
+  ],
+  "author": "AJT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajt-logic/monoblogger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajt-logic/monoblogger/issues"
+  }
+}
