@@ -11,7 +11,7 @@
     "email": "noreply@example.com"
   },
   "social": {
-    "twitter": "https://x.com/non_elementary"
+    "x": "https://x.com/non_elementary"
   },
   "build": {
     "postsPerPage": 10,

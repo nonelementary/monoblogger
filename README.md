@@ -44,7 +44,7 @@ Edit `config.json` with your details:
   },
   "social": {
     "github": "https://github.com/username",
-    "twitter": "https://twitter.com/username"
+    "x": "https://x.com/username"
   }
 }
 ```
