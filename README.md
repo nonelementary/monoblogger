@@ -290,4 +290,4 @@ MIT License - see LICENSE file for details.
 
 ## Credits
 
-Created by [AJT](https://github.com/nonelementary) for personal blogging with a focus on clean, readable design and developer-friendly workflow.
+Created by [nonelementary](https://github.com/nonelementary) for personal blogging with a focus on clean, readable design and developer-friendly workflow.
