@@ -5,6 +5,7 @@ A minimal static site generator with terminal aesthetics for creating fast, cust
 ## Features
 
 - **Markdown-first authoring** with frontmatter support
+- **Math rendering** via KaTeX, with `$...$` inline and `$$...$$` display delimiters
 - **Folder-based post organization** with automatic asset copying
 - **Category filtering** with client-side JavaScript
 - **Scheduled publishing** based on post dates
@@ -242,7 +243,8 @@ monoblogger/
 
 ### Dependencies
 
-- **marked** - Markdown to HTML conversion
+- **marked** - Markdown to HTML conversion, extended with a custom tokenizer (`lib/katex-markdown.js`) that protects `$...$`/`$$...$$` math spans from markdown's own escaping and emphasis rules
+- **KaTeX** - Math typesetting, loaded from a CDN in the generated HTML (not an npm dependency) along with its auto-render extension
 - **serve** - Local development server (dev dependency)
 
 ### Browser Support
