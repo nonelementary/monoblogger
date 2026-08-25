@@ -4,7 +4,8 @@
   "tagline": "Not first-order, not easy.",
   "description": "Notes from a long return to mathematical logic and model theory.",
   "domain": "nonelementary.com",
-  "baseUrl": "https://nonelementary.com"
+  "baseUrl": "https://nonelementary.com",
+  "favicon": "favicon.png"
 },
   "author": {
     "name": "AJT",

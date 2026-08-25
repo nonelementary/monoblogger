@@ -18,7 +18,8 @@ const {
   createDirs,
   copyPostAssets,
   createExamplePost,
-  writePublicFile
+  writePublicFile,
+  copyFavicon
 } = require('./lib/file-utils');
 
 // Configure marked
@@ -185,7 +186,10 @@ const build = () => {
   
   // Create necessary directories
   createDirs();
-  
+
+  // Copy favicon if configured
+  copyFavicon(config.site.favicon);
+
   // Create example post if no posts exist
   createExamplePost(config);
   
