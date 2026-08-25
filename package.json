@@ -27,9 +27,9 @@
   "author": "AJT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajt-logic/monoblogger.git"
+    "url": "git+https://github.com/nonelementary/monoblogger.git"
   },
   "bugs": {
-    "url": "https://github.com/ajt-logic/monoblogger/issues"
+    "url": "https://github.com/nonelementary/monoblogger/issues"
   }
 }

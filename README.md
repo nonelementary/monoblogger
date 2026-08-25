@@ -20,7 +20,7 @@ A minimal static site generator with terminal aesthetics for creating fast, cust
 ### Installation
 
 ```bash
-git clone https://github.com/ajt-logic/monoblogger.git
+git clone https://github.com/nonelementary/monoblogger.git
 cd monoblogger
 npm install
 ```
@@ -288,4 +288,4 @@ MIT License - see LICENSE file for details.
 
 ## Credits
 
-Created by [AJT](https://github.com/ajt-logic) for personal blogging with a focus on clean, readable design and developer-friendly workflow.
+Created by [AJT](https://github.com/nonelementary) for personal blogging with a focus on clean, readable design and developer-friendly workflow.
